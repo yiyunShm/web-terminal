@@ -1,0 +1,23 @@
+{
+  "name": "web-terminal",
+  "version": "1.0.0",
+  "description": "simplizer web terminal",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "css-loader": "^0.28.11",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "node-pty": "^0.7.4",
+    "socket.io": "^1.7.3",
+    "socket.io-client": "^1.7.3",
+    "style-loader": "^0.21.0",
+    "xterm": "^2.9.2"
+  }
+}
